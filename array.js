@@ -28,3 +28,36 @@ var projectValue = [50, 100, 120, 150, 180, 200]
 var indexElement = projectValue[3];
 
 console.log(indexElement);
+
+
+// using data find out index number/ position
+var numbers = [20, 25, 35, 78, 58, 48, 45];
+
+console.log(numbers);
+
+var element = numbers.indexOf(78);
+console.log(element);
+
+// using  index number/ position find out data
+var numbers = [29, 27, 35, 78, 55, 48, 41];
+
+console.log(numbers[4]);
+
+// Or 
+
+var numbers = [29, 27, 35, 78, 55, 48, 41];
+
+var second = numbers[4];
+
+console.log(second);
+
+
+
+// data chage using index number/ position
+
+var numbers = [20, 25, 35, 78, 58, 48, 45];
+
+numbers[0] = 50;
+
+console.log(numbers);
+
