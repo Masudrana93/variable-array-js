@@ -53,11 +53,18 @@ console.log(second);
 
 
 
-// data chage using index number/ position
+// data chage in array using index number/ position 
 
 var numbers = [20, 25, 35, 78, 58, 48, 45];
 
 numbers[0] = 50;
 
 console.log(numbers);
+
+
+
+console.log(20+15);
+
+console.log("Hello Dhaka");
+
 
