@@ -68,3 +68,43 @@ console.log(20+15);
 console.log("Hello Dhaka");
 
 
+var friendNames = ['anower', 'anis', 'morshed',]
+console.log(friendNames.indexOf('anwer'));  // spelling mistake output(-1)
+
+
+// data push (add) in array [] using push method 
+
+var friendNames = ['anower', 'anis', 'morshed', 'suboj']
+
+console.log(friendNames)
+
+var friendNames = ['anower', 'anis', 'morshed', 'suboj']
+
+friendNames.push('titon');
+friendNames.push('faysal')
+
+
+console.log(friendNames);
+
+var friendAge = [22, 25, 56, 14]
+friendAge.push(80)
+
+console.log(friendAge);
+
+// data pop (delete) in array [] using pop method
+
+var friendNames2 = ['anower', 'anis', 'morshed', 'suboj']
+
+friendNames2.pop();
+friendNames2.pop();
+friendNames2.pop();
+
+
+console.log(friendNames2)
+
+var friendAge2 = [22, 25, 56, 14]
+friendAge2.pop();
+friendAge2.pop();
+
+console.log(friendAge2);
+
